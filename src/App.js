@@ -22,7 +22,7 @@ function App() {
   }, [dispatch]);
   return (
     <div className="App">
-      <h2>Registration System</h2>
+      <h2>our Registration system</h2>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<UserRoute />}>
